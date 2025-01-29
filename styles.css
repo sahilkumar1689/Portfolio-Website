@@ -519,54 +519,57 @@ a {
 }
 
 #project3 {
-  background-image: url(NewImages/FaceRecognition.png);
+  background-image: url(NewImages/grillApp.png);
 }
 
 #project4 {
-  background-image: url(NewImages/Puma.png);
+  background-image: url(NewImages/FaceRecognition.png);
 }
 
 #project5 {
-  background-image: url(NewImages/maxresdefault.jpg);
+  background-image: url(NewImages/Puma.png);
 }
 
 #project6 {
-  background-image: url(images/amazon-clone.png);
+  background-image: url(NewImages/maxresdefault.jpg);
 }
 
 #project7 {
-  background-image: url(images/project4.webp);
+  background-image: url(images/amazon-clone.png);
 }
 
 #project8 {
-  background-image: url(images/project3.gif);
+  background-image: url(images/project4.webp);
 }
 
 #project9 {
-  background-image: url(images/landing-page.png);
+  background-image: url(images/project3.gif);
 }
 
 #project10 {
-  background-image: url(NewImages/Furniture.png);
+  background-image: url(images/landing-page.png);
 }
 
 #project11 {
-  background-image: url(NewImages/Bubblegame.png);
+  background-image: url(NewImages/Furniture.png);
 }
 
 #project12 {
-  background-image: url(images/calculator.jpg);
+  background-image: url(NewImages/Bubblegame.png);
 }
 
 #project13 {
-  background-image: url(NewImages/MyntraClone.png);
+  background-image: url(images/calculator.jpg);
 }
 
 #project14 {
-  background-image: url(NewImages/RandomImage.png);
+  background-image: url(NewImages/MyntraClone.png);
 }
 
 #project15 {
+  background-image: url(NewImages/RandomImage.png);
+}
+#project16 {
   background-image: url(NewImages/foodlandingpage.png);
 }
 
