@@ -312,6 +312,7 @@ a {
   align-items: center;
   justify-content: center;
   position: relative;
+  /* border: 2px solid white; */
 }
 
 .wave {
@@ -379,7 +380,12 @@ a {
   margin-top: 15rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
+  width: 90%;
+  /* border: 2px solid white; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .project-card {
@@ -399,12 +405,17 @@ a {
 }
 @media screen and (max-width: 1010px) {
   .project-card {
-    width: 45%;
+    width: 44%;
   }
   .content {
     position: absolute;
     top: 1%;
     left: 10%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .project-container {
+    width: 100%;
   }
 }
 
@@ -539,19 +550,19 @@ a {
 }
 
 #project8 {
-  background-image: url(images/project4.webp);
+  background-image: url(NewImages/interno.png);
 }
 
 #project9 {
-  background-image: url(images/project3.gif);
+  background-image: url(NewImages/Furniture.png);
 }
 
 #project10 {
-  background-image: url(images/landing-page.png);
+  background-image: url(NewImages/MyntraClone.png);
 }
 
 #project11 {
-  background-image: url(NewImages/Furniture.png);
+  background-image: url(images/landing-page.png);
 }
 
 #project12 {
@@ -562,16 +573,13 @@ a {
   background-image: url(images/calculator.jpg);
 }
 
-#project14 {
-  background-image: url(NewImages/MyntraClone.png);
+/* #project14 {
 }
 
 #project15 {
-  background-image: url(NewImages/RandomImage.png);
 }
 #project16 {
-  background-image: url(NewImages/foodlandingpage.png);
-}
+} */
 
 .project-button {
   display: block;
@@ -1209,5 +1217,99 @@ footer {
   .fixed-arrow {
     right: 1em;
     bottom: 1em;
+  }
+}
+
+/* Github Container: */
+.githubContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.githubTitle {
+  font-size: 80px;
+  color: #cccccc80;
+}
+
+.githubTitle a {
+  text-decoration: underline;
+  color: #cccccc80;
+}
+
+.githubTitle:hover {
+  color: whitesmoke;
+  transition: all 0.5s;
+}
+
+.githubTitle a:hover {
+  color: whitesmoke;
+  transition: all 1s;
+}
+
+.githubChart {
+  width: 820px;
+  text-align: center;
+}
+
+.dates {
+  padding: 10px;
+  color: #555;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.box {
+  width: 15px;
+  height: 15px;
+  background-color: #171c25;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 3s all ease;
+}
+
+.active:nth-child(4n) {
+  background-color: #195b2c;
+}
+
+.githubChart:hover .active:nth-child(2n + 1) {
+  background-color: #195b2c;
+}
+.githubChart:hover .active:nth-child(2n) {
+  background-color: #063f24;
+}
+
+.githubSm {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .githubChart {
+    display: none;
+  }
+
+  .githubTitle {
+    text-align: center;
+    font-size: 10vw;
+  }
+
+  .githubSm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #555;
+    font-size: 30px;
+    text-align: center;
   }
 }
