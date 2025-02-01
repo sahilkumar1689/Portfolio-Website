@@ -189,24 +189,24 @@ console.log('ScrollReveal available:', window.ScrollReveal);
 
 // Then modify your ScrollReveal initialization
 const sr = ScrollReveal({
-    distance: '60px',
+    distance: "60px",
     duration: 2500,
     delay: 400,
 });
 
 // Add reveals with specific configurations
-sr.reveal('.hero-main', {
+sr.reveal(".hero-main", {
     duration: 2000,
     delay: 200
 });
 
-sr.reveal('.hero-annimation', {
+sr.reveal(".hero-annimation", {
     duration: 2000,
-    origin: 'right',
-    distance: '100px'
+    origin: "right",
+    distance: "100px"
 });
 
-sr.reveal('.temp__temps',{origin:'bottom'});
+
 
 
 
