@@ -1,286 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a Sahil Kumar Portfolio Website.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is a Sahil Kumar Portfolio Website."
+    />
 
     <title>Portfolio</title>
 
     <!-- LINKS -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="images/v_logo.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="images/v_logo.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="scrollreveal.min.js" defer></script>
     <script src="index.js" defer></script>
+  </head>
 
-
-</head>
-
-<body>
-
+  <body>
     <!-- DROPDOWN MENU-->
     <div class="sideMenu">
-        <ul>
-            <i class="fa-solid fa-xmark sideMenuCross crossClass" style="color: #ffffff;"></i>
-            <li class="crossClass"><a href="#About">About Me</a></li>
-            <li class="crossClass"><a href="#Projects">Projects</a></li>
-            <li class="crossClass"><a href="#Skills">Skills</a></li>
-            <li class="crossClass"><a href="https://drive.google.com/file/d/1flXm-pH4SN5FFJDX3YJNjxINdg0BR3lu/view?usp=drive_link">Resume</a></li>
-            <li class="crossClass"><a href="#Contact">Contact Me</a></li>
-        </ul>
-        <div class="innerSideContainer">
-        </div>
+      <ul>
+        <i
+          class="fa-solid fa-xmark sideMenuCross crossClass"
+          style="color: #ffffff"
+        ></i>
+        <li class="crossClass"><a href="#About">About Me</a></li>
+        <li class="crossClass"><a href="#Projects">Projects</a></li>
+        <li class="crossClass"><a href="#Skills">Skills</a></li>
+        <li class="crossClass">
+          <a
+            href="https://drive.google.com/file/d/1flXm-pH4SN5FFJDX3YJNjxINdg0BR3lu/view?usp=drive_link"
+            >Resume</a
+          >
+        </li>
+        <li class="crossClass"><a href="#Contact">Contact Me</a></li>
+      </ul>
+      <div class="innerSideContainer"></div>
     </div>
 
     <div id="wrapper">
+      <!-- NAVBAR AND HERO SECTION-->
+      <div class="container">
+        <!-- NAV BAR -->
+        <div class="nav-bar" id="About">
+          <div class="logo-container">
+            <img src="images/v_logo.jpg" class="logo" alt="V logo" id="Logo" />
+            <div class="logo-text">Portfolio</div>
+          </div>
 
-        <!-- NAVBAR AND HERO SECTION-->
-        <div class="container">
+          <i class="fa-solid fa-bars hamburgerIcon" style="color: #ffffff"></i>
 
-            <!-- NAV BAR -->
-            <div class="nav-bar" id="About">
-
-                <div class="logo-container">
-                    <img src="images/v_logo.jpg" class="logo" alt="V logo" id="Logo" />
-                    <div class="logo-text">Portfolio</div>
-                </div>
-
-                <i class="fa-solid fa-bars hamburgerIcon" style="color: #ffffff;"></i>
-
-                <div class="nav-items">
-                    <div><a href="#About">About Me</a></div>
-                    <div><a href="#Projects">Projects</a></div>
-                    <div><a href="#Skills">Skills</a></div>
-                    <div><a href="https://drive.google.com/file/d/1flXm-pH4SN5FFJDX3YJNjxINdg0BR3lu/view?usp=drive_link" target="_blank">Resume</a></div>
-                    <div><a href="#Contact">Contact Me</a></div>
-                </div>
+          <div class="nav-items">
+            <div><a href="#About">About Me</a></div>
+            <div><a href="#Projects">Projects</a></div>
+            <div><a href="#Skills">Skills</a></div>
+            <div>
+              <a
+                href="https://drive.google.com/file/d/1flXm-pH4SN5FFJDX3YJNjxINdg0BR3lu/view?usp=drive_link"
+                target="_blank"
+                >Resume</a
+              >
             </div>
-
-            <!-- HERO SECTION-->
-            <div class="hero-section">
-
-                <!-- MAIN CONTENT -->
-                <div class="hero-main">
-
-                    <div class="hero-section-heading bg-clip-text bg-gradient-to-br from-primary-500">Hello,I'm</div>
- 
-                    <div class="hero-section-heading hero-section-sub-heading">
-                       <span class="role"></span>
-                    </div>
-
-                    <div class="hero-section-description">
-                        I am a B-Tech 4<sup>th</sup> year student. I have mastered my skills in Full Stack Web
-                        Development and DSA.
-                        Here you will get to have a brief look on my skills.
-                    </div>
-
-                    <div class="contactBtns">
-                        <a href="https://www.linkedin.com/in/sahil-kumar-79b203221/?originalSubdomain=in" target="_blank">
-                            <div class="hire-btn" id="btn">Hire Me</div>
-                        </a>
-                        <a href="https://drive.google.com/file/d/1flXm-pH4SN5FFJDX3YJNjxINdg0BR3lu/view?usp=drive_link" target="_blank">
-                            <div class="hire-btn hireBtn2" id="btn">Download CV</div>
-                        </a>
-
-                    </div>
-                </div>
-
-                <!-- ANNIMATION -->
-                <div class="hero-annimation">
-
-                    <div class="main-image">
-                        <img src="NewImages/Photo1.jpg" alt="Sahil Kumar" />
-                    </div>
-                </div>
-
-                <!-- FADED TEXT -->
-                <div class="hero-Name">
-                     <div class="faded-text ">Sahil Kumar</div>
-                 </div>
-            </div>
-            
-            <hr class="heroHr">
+            <div><a href="#Contact">Contact Me</a></div>
+          </div>
         </div>
 
-
-        <!-- PROJECT SECTION -->
-        <div class="project-section" id="Projects">
-            <!-- WAVE -->
-            <div class="wave">
-                <div class="content">
-                    <h2>PROJECTS</h2>
-                    <h2>PROJECTS</h2>
-                </div>
+        <!-- HERO SECTION-->
+        <div class="hero-section">
+          <!-- MAIN CONTENT -->
+          <div class="hero-main">
+            <div
+              class="hero-section-heading bg-clip-text bg-gradient-to-br from-primary-500"
+            >
+              Hello,I'm
             </div>
 
-            <!-- PROJECTS CARDS-->
-            <div class="project-container">
+            <div class="hero-section-heading hero-section-sub-heading">
+              <span class="role"></span>
+            </div>
 
-                <div class="project-card" id="project1">
-                    <div class="project-number project-number-right">01</div>
+            <div class="hero-section-description">
+              I am a B-Tech 4<sup>th</sup> year student. I have mastered my
+              skills in Full Stack Web Development and DSA. Here you will get to
+              have a brief look on my skills.
+            </div>
 
-                    <div class="project-content">
-                        <h2 class="project-heading">Resturant RESERVATION</h2>
+            <div class="contactBtns">
+              <a
+                href="https://www.linkedin.com/in/sahil-kumar-79b203221/?originalSubdomain=in"
+                target="_blank"
+              >
+                <div class="hire-btn" id="btn">Hire Me</div>
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1Nz3SKmovyPIGQJiIUJMfrCbRwOeS98It/view?usp=sharing"
+                target="_blank"
+              >
+                <div class="hire-btn hireBtn2" id="btn">Download CV</div>
+              </a>
+            </div>
+          </div>
 
-                        <p class="project-subHeading">
-                            Developed a Hotel Reservation System that streamlined the booking process.</p>
+          <!-- ANNIMATION -->
+          <div class="hero-annimation">
+            <div class="main-image">
+              <img src="NewImages/Photo1.jpg" alt="Sahil Kumar" />
+            </div>
+          </div>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/Hotel-Reservation-Sytem-Frontend" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://delightbites.netlify.app/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
+          <!-- FADED TEXT -->
+          <div class="hero-Name">
+            <div class="faded-text">Sahil Kumar</div>
+          </div>
+        </div>
 
-                </div>
+        <hr class="heroHr" />
+      </div>
 
-                <div class="project-card" id="project2">
-                    <div class="project-number project-number-right">02</div>
+      <!-- PROJECT SECTION -->
+      <div class="project-section" id="Projects">
+        <!-- WAVE -->
+        <div class="wave">
+          <div class="content">
+            <h2>PROJECTS</h2>
+            <h2>PROJECTS</h2>
+          </div>
+        </div>
 
-                    <div class="project-content">
-                        <h2 class="project-heading">Resturant Website</h2>
+        <!-- PROJECTS CARDS-->
+        <div class="project-container">
+          <div class="project-card" id="project1">
+            <div class="project-number project-number-right">01</div>
 
-                        <p class="project-subHeading">Build a attractive Food Resturant Website frontend.</p>
+            <div class="project-content">
+              <h2 class="project-heading">Resturant RESERVATION</h2>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/Tomato-Food-Website" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://tomato-food-website-frontend.onrender.com/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
+              <p class="project-subHeading">
+                Developed a Hotel Reservation System that streamlined the
+                booking process.
+              </p>
 
-                </div>
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/Hotel-Reservation-Sytem-Frontend"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="https://delightbites.netlify.app/" target="_blank">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                <div class="project-card" id="project3">
-                    <div class="project-number project-number-right">03</div>
+          <div class="project-card" id="project2">
+            <div class="project-number project-number-right">02</div>
 
-                    <div class="project-content">
-                        <h2 class="project-heading">Grill Affair</h2>
+            <div class="project-content">
+              <h2 class="project-heading">Resturant Website</h2>
 
-                        <p class="project-subHeading">Create a solution for the grill resturant that continously experience declining in their customer attraction.</p>
+              <p class="project-subHeading">
+                Build a attractive Food Resturant Website frontend.
+              </p>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/Food-Ordering" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://sahilkumar1689.github.io/Food-Ordering/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/Tomato-Food-Website"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://tomato-food-website-frontend.onrender.com/"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                </div>
+          <div class="project-card" id="project3">
+            <div class="project-number project-number-right">03</div>
 
-                <div class="project-card" id="project4">
-                    <div class="project-number project-number-right">04</div>
+            <div class="project-content">
+              <h2 class="project-heading">Grill Affair</h2>
 
-                    <div class="project-content">
-                        <h2 class="project-heading">Face Recognition Attendance System</h2>
+              <p class="project-subHeading">
+                Create a solution for the grill resturant that continously
+                experience declining in their customer attraction.
+              </p>
 
-                        <p class="project-subHeading">Leveraging advanced facial recognition technology and computer vision algorithms to stream line the attendance process.</p>
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/Food-Ordering"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://sahilkumar1689.github.io/Food-Ordering/"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/Face-Recognition-Attendance-System" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://github.com/sahilkumar1689/Face-Recognition-Attendance-System" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
+          <div class="project-card" id="project4">
+            <div class="project-number project-number-right">04</div>
 
-                </div>
+            <div class="project-content">
+              <h2 class="project-heading">
+                Face Recognition Attendance System
+              </h2>
 
-                <div class="project-card" id="project5">
-                    <div class="project-number project-number-right">05</div>
+              <p class="project-subHeading">
+                Leveraging advanced facial recognition technology and computer
+                vision algorithms to stream line the attendance process.
+              </p>
 
-                    <div class="project-content">
-                        <h2 class="project-heading">PUMA UI Clone</h2>
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/Face-Recognition-Attendance-System"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://github.com/sahilkumar1689/Face-Recognition-Attendance-System"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                        <p class="project-subHeading">It is a landing page UI clone of the puma.com created using html,css,js,tailwindcss.
-                        </p>
+          <div class="project-card" id="project5">
+            <div class="project-number project-number-right">05</div>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/Puma-Clone" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://sahilkumar1689.github.io/Puma-Clone/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
+            <div class="project-content">
+              <h2 class="project-heading">PUMA UI Clone</h2>
 
-                </div>
+              <p class="project-subHeading">
+                It is a landing page UI clone of the puma.com created using
+                html,css,js,tailwindcss.
+              </p>
 
-                <div class="project-card" id="project6">
-                    <div class="project-number project-number-right">06</div>
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/Puma-Clone"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://sahilkumar1689.github.io/Puma-Clone/"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                    <div class="project-content">
-                        <h2 class="project-heading">Netflix UI Clone</h2>
+          <div class="project-card" id="project6">
+            <div class="project-number project-number-right">06</div>
 
-                        <p class="project-subHeading">It is a UI clone of netflix landing page creates using html , css.</p>
+            <div class="project-content">
+              <h2 class="project-heading">Netflix UI Clone</h2>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/NetflixClone" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://sahilkumar1689.github.io/NetflixClone/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
+              <p class="project-subHeading">
+                It is a UI clone of netflix landing page creates using html ,
+                css.
+              </p>
 
-                </div>
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/NetflixClone"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://sahilkumar1689.github.io/NetflixClone/"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                <div class="project-card" id="project7">
-                    <div class="project-number project-number-right">07</div>
+          <div class="project-card" id="project7">
+            <div class="project-number project-number-right">07</div>
 
-                    <div class="project-content">
-                        <h2 class="project-heading">AMAZON Clone</h2>
+            <div class="project-content">
+              <h2 class="project-heading">AMAZON Clone</h2>
 
-                        <p class="project-subHeading">A CSS replica of Amazon.</p>
+              <p class="project-subHeading">A CSS replica of Amazon.</p>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/Amazon-Clone" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://sahilkumar1689.github.io/Amazon-Clone/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/Amazon-Clone"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://sahilkumar1689.github.io/Amazon-Clone/"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                </div>
+          <div class="project-card" id="project8">
+            <div class="project-number project-number-right">08</div>
 
-                <div class="project-card" id="project8">
-                    <div class="project-number project-number-right">08</div>
+            <div class="project-content">
+              <h2 class="project-heading">Interno</h2>
 
-                    <div class="project-content">
-                        <h2 class="project-heading">Interno</h2>
+              <p class="project-subHeading">
+                It is a clean UI design for the furniture website. Created by
+                using the tailwindcss. Also Utilizes the scroller js for
+                scrolling animations and swiper js to create pagenation.
+              </p>
 
-                        <p class="project-subHeading">It is a clean UI design for the furniture website. Created by using the tailwindcss. Also Utilizes the scroller js for scrolling animations and swiper js to create pagenation.</p>
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/Interno"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://sahilkumar1689.github.io/Interno/"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/Interno" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://sahilkumar1689.github.io/Interno/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- <div class="project-card" id="project9">
+          <!-- <div class="project-card" id="project9">
                     <div class="project-number project-number-right">09</div>
 
                     <div class="project-content">
@@ -301,110 +378,137 @@
 
                 </div> -->
 
-                <div class="project-card" id="project9">
-                    <div class="project-number project-number-right">09</div>
-                    <div class="project-content">
-                        <h2 class="project-heading">Furniture Website Landing Page</h2>
+          <div class="project-card" id="project9">
+            <div class="project-number project-number-right">09</div>
+            <div class="project-content">
+              <h2 class="project-heading">Furniture Website Landing Page</h2>
 
-                        <p class="project-subHeading">A simple css based furniture website landing page</p>
+              <p class="project-subHeading">
+                A simple css based furniture website landing page
+              </p>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/Furniture-Website-Landing-Page" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://sahilkumar1689.github.io/Furniture-Website-Landing-Page/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/Furniture-Website-Landing-Page"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://sahilkumar1689.github.io/Furniture-Website-Landing-Page/"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                </div>
+          <div class="project-card" id="project10">
+            <div class="project-number project-number-right">10</div>
 
-                <div class="project-card" id="project10">
-                    <div class="project-number project-number-right">10</div>
-                    
-                    <div class="project-content">
-                        <h2 class="project-heading">Myntra UI Clone</h2>
+            <div class="project-content">
+              <h2 class="project-heading">Myntra UI Clone</h2>
 
-                        <p class="project-subHeading">Simpley Try to replicate the Myntra UI design.</p>
+              <p class="project-subHeading">
+                Simpley Try to replicate the Myntra UI design.
+              </p>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/Myntra-Clone" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://sahilkumar1689.github.io/Myntra-Clone/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/Myntra-Clone"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://sahilkumar1689.github.io/Myntra-Clone/"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                </div>
+          <div class="project-card" id="project11">
+            <div class="project-number project-number-right">11</div>
 
-                <div class="project-card" id="project11">
-                    <div class="project-number project-number-right">11</div>
+            <div class="project-content">
+              <h2 class="project-heading">Landing Page</h2>
 
-                    <div class="project-content">
-                        <h2 class="project-heading">Landing Page</h2>
+              <p class="project-subHeading">
+                A simple css based landing page using Bootstrap.
+              </p>
 
-                        <p class="project-subHeading">A simple css based landing page using Bootstrap.</p>
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/LandingPage"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://sahilkumar1689.github.io/LandingPage/"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/LandingPage" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://sahilkumar1689.github.io/LandingPage/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
+          <div class="project-card" id="project12">
+            <div class="project-number project-number-right">12</div>
 
-                </div>
+            <div class="project-content">
+              <h2 class="project-heading">Bubble Game</h2>
 
-                <div class="project-card" id="project12">
-                    <div class="project-number project-number-right">12</div>
+              <p class="project-subHeading">Javascript Based Bubble Game.</p>
 
-                    <div class="project-content">
-                        <h2 class="project-heading">Bubble Game</h2>
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/Bubble-Game"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://sahilkumar1689.github.io/Bubble-Game/"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                        <p class="project-subHeading">Javascript Based Bubble Game.</p>
+          <div class="project-card" id="project13">
+            <div class="project-number project-number-right">13</div>
 
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/Bubble-Game" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://sahilkumar1689.github.io/Bubble-Game/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
+            <div class="project-content">
+              <h2 class="project-heading">Calculator</h2>
 
-                </div>
+              <p class="project-subHeading">A useful tool for nerds.</p>
 
-                <div class="project-card" id="project13">
-                    <div class="project-number project-number-right">13</div>
+              <div class="btn-grp">
+                <a
+                  href="https://github.com/sahilkumar1689/Calculator-New"
+                  target="_blank"
+                >
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a
+                  href="https://sahilkumar1689.github.io/Calculator-New/"
+                  target="_blank"
+                >
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                    <div class="project-content">
-                        <h2 class="project-heading">Calculator</h2>
-
-                        <p class="project-subHeading">A useful tool for nerds.</p>
-
-                        <div class="btn-grp">
-                            <a href="https://github.com/sahilkumar1689/Calculator-New" target="_blank">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-                            </a>
-                            <a href="https://sahilkumar1689.github.io/Calculator-New/" target="_blank">
-                                <i title="Live Link" class="fa-solid fa-link icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <!-- <div class="project-card" id="project15">
+          <!-- <div class="project-card" id="project15">
                     <div class="project-number project-number-right">15</div>
 
                     <div class="project-content">
@@ -424,7 +528,7 @@
 
                 </div> -->
 
-                <!-- <div class="project-card" id="project16">
+          <!-- <div class="project-card" id="project16">
                     <div class="project-number project-number-right">16</div>
 
                     <div class="project-content">
@@ -443,204 +547,239 @@
                     </div>
 
                 </div> -->
-            </div>
-
-            <!-- BUTTON -->
-            <a href="https://github.com/sahilkumar1689" target="_blank" class="project-button">See more</a>
         </div>
 
+        <!-- BUTTON -->
+        <a
+          href="https://github.com/sahilkumar1689"
+          target="_blank"
+          class="project-button"
+          >See more</a
+        >
+      </div>
 
-        <!-- SKILLS SECTION -->
-        <div class="SkillsCotnainer" id="Skills">
-            <div class="SkillLeft">
-                <img src="NewImages/aboutImage.webp" alt="aboutImage">
-            </div>
-            <div class="SkillsRight">
-                <h2>About Me</h2>
-                <p>I am a B-Tech 4<sup>th</sup> year student. I have mastered my skills in Full Stack Web
-                    Development and DSA.
-                    Here you will get to have a brief look on my skills.</p>
-                <div class="SkillsHeading">
-                    <button class="skillBtn hoverBtn" style="color: white;">Skills</button>
-                    <button class="educationBtn hoverBtn">Education</button>
-                </div>
-                <div class="skillsContentSection">
-                    <ul class="skillsLists">
-                        <li>C/C++</li>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>DSA</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>React.js</li>
-                        <li>Tailwindcss</li>
-                        <li>Bootstrap</li>
-                        <li>Figma</li>
-                        <li>Node.js</li>
-                        <li>Express.js</li>
-                        <li>MongoDB</li>
-                        <li>Firebase</li>
-                        <li>PHP</li>
-                        <li>WordPress</li>
-                        <li>MySQL</li>
-                        <li>Appwrite</li>
-                        <li>Cloudinary</li>
-                    </ul>
-                    <ul class="educationSection">
-                        <li>Guru Nanak Dev University,Amritsar B-Tech CSE, CGPA-8.7</li>
-                        <li>Govt. Model Senior Secondary School 12<sup>th</sup> PSEB Board-88%</li>
-                        <li>Kids Paradise School 10<sup>th</sup> PSEB Board-85%</li>
-                    </ul>
-                </div>
-
-            </div>
+      <!-- SKILLS SECTION -->
+      <div class="SkillsCotnainer" id="Skills">
+        <div class="SkillLeft">
+          <img src="NewImages/aboutImage.webp" alt="aboutImage" />
         </div>
-       
-
-        <!-- CONTACT US SECTION -->
-        <div class="contactContainer" id="Contact">
-            <div class="contactLeft">
-                <div class="leftContent">
-                    <h1>I'd love to hear from you</h1>
-                    <h2>Whether you have a challenging project, wanna team up, need guidance, or anything else feel free to contact.</h2>
-                    <div class="socialContactContainer">
-                        <a href="https://x.com/SahilKu10554898" target="_blank">
-                            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
-                        </a>
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-                        </a>
-                        <a href="https://github.com/sahilkumar1689" target="_blank">
-                            <i class="fa-brands fa-github" style="color: #ffffff;"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/sahil-kumar-79b203221/" target="_blank">
-                            <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-                        </a>
-                        <a href="" target="_blank">
-                            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
-                        </a>
-                    </div>
-                    <div class="contactnumberContainer">
-                        <p class="cotactNumber"><i class="fa-solid fa-phone" style="color: #ffffff;">&nbsp;&nbsp;</i>+91-9878913571</p>
-                        <p class="divider">|</p>
-                        <p class="gmail"><i class="fa-regular fa-envelope" style="color: #ffffff;">&nbsp;&nbsp;&nbsp</i><a href="mailto:sahilKumar32755@gmail.com">sahilkumar32755@gmail.com</a></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="contactRight">
-                <label for="mail">
-                    Your Email
-                </label>
-                <input type="email" id="mail" placeholder="xyz@gamil.com" class="inputField" required>
-                <label for="subject">
-                    Subject
-                </label>
-                <input type="text" id="subject" placeholder="Just say hello!" class="inputField" required>
-                <label for="message">
-                    Message
-                </label>
-               <textarea name="Let's Talk About.." id="message" placeholder="Let's Talk About.. " class="inputField" required></textarea>
-                <button class="submitBtn">Send Message</button>
-            </div>
+        <div class="SkillsRight">
+          <h2>About Me</h2>
+          <p>
+            I am a B-Tech 4<sup>th</sup> year student. I have mastered my skills
+            in Full Stack Web Development and DSA. Here you will get to have a
+            brief look on my skills.
+          </p>
+          <div class="SkillsHeading">
+            <button class="skillBtn hoverBtn" style="color: white">
+              Skills
+            </button>
+            <button class="educationBtn hoverBtn">Education</button>
+          </div>
+          <div class="skillsContentSection">
+            <ul class="skillsLists">
+              <li>C/C++</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>DSA</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>React.js</li>
+              <li>Tailwindcss</li>
+              <li>Bootstrap</li>
+              <li>Figma</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>Firebase</li>
+              <li>PHP</li>
+              <li>WordPress</li>
+              <li>MySQL</li>
+              <li>Appwrite</li>
+              <li>Cloudinary</li>
+            </ul>
+            <ul class="educationSection">
+              <li>Guru Nanak Dev University,Amritsar B-Tech CSE, CGPA-8.7</li>
+              <li>
+                Govt. Model Senior Secondary School 12<sup>th</sup> PSEB
+                Board-88%
+              </li>
+              <li>Kids Paradise School 10<sup>th</sup> PSEB Board-85%</li>
+            </ul>
+          </div>
         </div>
-        
+      </div>
 
-        <!-- FOOTER PANNEL 1, 2 -->
-
-        <div class="githubContainer">
-            <h1 class="githubTitle">Want to see all projects?</h1>
-            <div class="githubChart">
-              <div class="dates">
-                <span>Jan</span>
-                <span>Feb</span>
-                <span>Mar</span>
-                <span>Apr</span>
-                <span>May</span>
-                <span>Jun</span>
-                <span>Jul</span>
-                <span>Agu</span>
-                <span>Sep</span>
-                <span>Oct</span>
-                <span>Nov</span>
-                <span>Dec</span>
-              </div>
-              <div class="boxContainer"></div>
-              <h1 class="githubTitle">
-                <a href="https://github.com/sahilkumar1689" target="_blank"
-                  >ON GITHUB</a
-                >
-              </h1>
-            </div>
-            <div class="githubSm">
-              <a href="https://github.com/sahilkumar1689" target="_blank">
-                <img src="./NewImages/github.png" alt="github" />
+      <!-- CONTACT US SECTION -->
+      <div class="contactContainer" id="Contact">
+        <div class="contactLeft">
+          <div class="leftContent">
+            <h1>I'd love to hear from you</h1>
+            <h2>
+              Whether you have a challenging project, wanna team up, need
+              guidance, or anything else feel free to contact.
+            </h2>
+            <div class="socialContactContainer">
+              <a href="https://x.com/SahilKu10554898" target="_blank">
+                <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
               </a>
-              <a href="https://github.com/sahilkumar1689" target="_blank"
-                ><h2>Find Me on Github</h2></a
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+              </a>
+              <a href="https://github.com/sahilkumar1689" target="_blank">
+                <i class="fa-brands fa-github" style="color: #ffffff"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sahil-kumar-79b203221/"
+                target="_blank"
               >
+                <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
+              </a>
+              <a href="" target="_blank">
+                <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+              </a>
+            </div>
+            <div class="contactnumberContainer">
+              <p class="cotactNumber">
+                <i class="fa-solid fa-phone" style="color: #ffffff"
+                  >&nbsp;&nbsp;</i
+                >+91-9878913571
+              </p>
+              <p class="divider">|</p>
+              <p class="gmail">
+                <i class="fa-regular fa-envelope" style="color: #ffffff"
+                  >&nbsp;&nbsp;&nbsp</i
+                ><a href="mailto:sahilKumar32755@gmail.com"
+                  >sahilkumar32755@gmail.com</a
+                >
+              </p>
             </div>
           </div>
-
-          <hr class="contactHr">
-        <footer>
-
-            <div id="special-container">
-                <span id="text1"></span>
-                <span id="text2"></span>
-            </div>
-
-            <svg id="filters">
-                <defs>
-                    <filter id="threshold">
-                        <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
-                              0 1 0 0 0
-                              0 0 1 0 0
-                              0 0 0 255 -140" />
-                    </filter>
-                </defs>
-            </svg>
-
-
-            <div class="footer-faded-text">Sahil Kumar</div>
-
-            <a href="#About"><div class="fixed-arrow" style="font-size: 20px;">↑</div></a>
-        </footer>
-
-        <div class="footer-panel4">
-            <div class="pages">
-                <a href="#Contact">Meeting</a>
-                <a href="#About">Details</a>
-                <a href="#Contact">Collaboration</a>
-            </div>
-
-            <div class="copyright">
-                SahilKumar © 2025 Github.com
-            </div>
         </div>
 
+        <div class="contactRight">
+          <label for="mail"> Your Email </label>
+          <input
+            type="email"
+            id="mail"
+            placeholder="xyz@gamil.com"
+            class="inputField"
+            required
+          />
+          <label for="subject"> Subject </label>
+          <input
+            type="text"
+            id="subject"
+            placeholder="Just say hello!"
+            class="inputField"
+            required
+          />
+          <label for="message"> Message </label>
+          <textarea
+            name="Let's Talk About.."
+            id="message"
+            placeholder="Let's Talk About.. "
+            class="inputField"
+            required
+          ></textarea>
+          <button class="submitBtn">Send Message</button>
+        </div>
+      </div>
 
+      <!-- FOOTER PANNEL 1, 2 -->
+
+      <div class="githubContainer">
+        <h1 class="githubTitle">Want to see all projects?</h1>
+        <div class="githubChart">
+          <div class="dates">
+            <span>Jan</span>
+            <span>Feb</span>
+            <span>Mar</span>
+            <span>Apr</span>
+            <span>May</span>
+            <span>Jun</span>
+            <span>Jul</span>
+            <span>Agu</span>
+            <span>Sep</span>
+            <span>Oct</span>
+            <span>Nov</span>
+            <span>Dec</span>
+          </div>
+          <div class="boxContainer"></div>
+          <h1 class="githubTitle">
+            <a href="https://github.com/sahilkumar1689" target="_blank"
+              >ON GITHUB</a
+            >
+          </h1>
+        </div>
+        <div class="githubSm">
+          <a href="https://github.com/sahilkumar1689" target="_blank">
+            <img src="./NewImages/github.png" alt="github" />
+          </a>
+          <a href="https://github.com/sahilkumar1689" target="_blank"
+            ><h2>Find Me on Github</h2></a
+          >
+        </div>
+      </div>
+
+      <hr class="contactHr" />
+      <footer>
+        <div id="special-container">
+          <span id="text1"></span>
+          <span id="text2"></span>
+        </div>
+
+        <svg id="filters">
+          <defs>
+            <filter id="threshold">
+              <feColorMatrix
+                in="SourceGraphic"
+                type="matrix"
+                values="1 0 0 0 0
+                              0 1 0 0 0
+                              0 0 1 0 0
+                              0 0 0 255 -140"
+              />
+            </filter>
+          </defs>
+        </svg>
+
+        <div class="footer-faded-text">Sahil Kumar</div>
+
+        <a href="#About"
+          ><div class="fixed-arrow" style="font-size: 20px">↑</div></a
+        >
+      </footer>
+
+      <div class="footer-panel4">
+        <div class="pages">
+          <a href="#Contact">Meeting</a>
+          <a href="#About">Details</a>
+          <a href="#Contact">Collaboration</a>
+        </div>
+
+        <div class="copyright">SahilKumar © 2025 Github.com</div>
+      </div>
     </div>
 
     <!-- SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script> -->
     <script>
-        var typeData = new Typed(".role", {
-            strings: [
-                "FullStack Web Developer",
-                "UI-UX Designer",
-                "Competitive Programmer",
-                "Collaborative Person",
-                "Team Player",
-            ],
-            loop: true,
-            typeSpeed: 100,
-            backSpeed: 80,
-            backDelay: 1000,
-        });
+      var typeData = new Typed(".role", {
+        strings: [
+          "FullStack Web Developer",
+          "UI-UX Designer",
+          "Competitive Programmer",
+          "Collaborative Person",
+          "Team Player",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
     </script>
-</body>
-
+  </body>
 </html>
